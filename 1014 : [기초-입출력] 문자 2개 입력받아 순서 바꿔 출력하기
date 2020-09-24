@@ -1,0 +1,16 @@
+/*
+changing the order of charcter output
+
+a B -> B a
+*/
+
+#include <stdio.h>
+
+int main()
+{
+	char a,b;
+	scanf("%c %c", &a, &b);
+	printf("%c %c", b,a);
+
+	return 0;
+}
