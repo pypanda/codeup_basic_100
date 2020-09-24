@@ -1,5 +1,6 @@
 /*
-input char x -> output x
+char x 
+input character -> output character
 */
 
 #include <stdio.h>
