@@ -1,3 +1,7 @@
+/*
+input char x -> output x
+*/
+
 #include <stdio.h>
 
 int main()
