@@ -6,8 +6,8 @@ input resident resistraion number -> output yyyymmdd-last 7 digits
 
 int main(void)
 {
-	int x,y;
-	scanf("%d-%d", &x,&y);
-	printf("%d%d", x,y);
+	int a,b;
+	scanf("%d-%d", &a, &b);
+	printf("%06d%07d", a,b);
 	return 0;
 }
