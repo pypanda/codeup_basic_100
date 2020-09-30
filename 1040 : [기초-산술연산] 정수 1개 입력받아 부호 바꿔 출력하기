@@ -1,0 +1,13 @@
+/*
+input an integer -> output an integer with changed in sign
+*/
+
+#include <stdio.h>
+
+int main(void)
+{
+	long long int a;
+	scanf("%lld",&a );
+	printf("%lld", -a);
+	return 0;
+}
