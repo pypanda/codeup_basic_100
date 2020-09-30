@@ -1,5 +1,5 @@
 /*
-input word -> output letters make up a word
+input word -> output letters one by one that make up a word
 */
 
 #include <stdio.h>
