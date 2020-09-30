@@ -1,0 +1,15 @@
+/*
+input an integer in the range of 0 ~ 4,294,967,295 -> output same integer
+(out of range_int)
+
+*/
+
+#include <stdio.h>
+
+int main(void)
+{
+	unsigned int n;
+	scanf("%u", &n);
+	printf("%u", n);
+	return 0;
+}
