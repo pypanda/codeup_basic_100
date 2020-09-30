@@ -1,0 +1,14 @@
+/*
+input a real number +- 1.7*10-308 ~ +- 1.7*10308 -> output a real number
+float range : +- 3.4*10-38 ~ +- 3.4*1038
+*/
+
+#include <stdio.h>
+
+int main(void)
+{
+	double d;
+	scanf("%lf", &d);
+	printf("%.11lf", d);
+	return 0;
+}
