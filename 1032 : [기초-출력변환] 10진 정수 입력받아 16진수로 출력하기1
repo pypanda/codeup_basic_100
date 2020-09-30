@@ -1,5 +1,5 @@
 /*
-intput a decimal numebr -> output a hexadecimal number
+intput a decimal numebr -> output a hexadecimal number in lowercase letters
 */
 
 #include <stdio.h>
