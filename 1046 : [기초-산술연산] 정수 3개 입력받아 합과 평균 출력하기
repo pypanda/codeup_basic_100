@@ -1,0 +1,13 @@
+/*
+input three integers -> output sum, average
+*/
+
+#include <stdio.h>
+
+int main(void)
+{	
+	int a,b,c;
+	scanf("%d %d %d", &a, &b, &c);
+	printf("%d %.1f", a+b+c , ((float)a+(float)b+(float)c)/3);
+	return 0;
+}
