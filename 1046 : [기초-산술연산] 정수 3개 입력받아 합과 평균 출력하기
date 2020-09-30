@@ -1,5 +1,5 @@
 /*
-input three integers -> output sum, average
+input three integers -> output sum, average(rounded up to the one decimal place)
 */
 
 #include <stdio.h>
