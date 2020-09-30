@@ -1,0 +1,13 @@
+/*
+input an integer -> output a character in ASCII code
+*/
+
+#include <stdio.h>
+
+int main(void)
+{
+	int a;
+	scanf("%d",&a);
+	printf("%c", a);
+	return 0;
+}
