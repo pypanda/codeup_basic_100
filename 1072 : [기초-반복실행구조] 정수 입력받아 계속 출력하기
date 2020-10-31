@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int a,b;
+	scanf("%d", &a);
+reget :
+	if (a-- != 0)
+	{
+		scanf("%d", &b);
+		printf("%d\n", b);
+		goto reget;
+	}
+	return 0;
+}
