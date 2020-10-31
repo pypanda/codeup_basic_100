@@ -12,3 +12,8 @@ reload:
 	if (a != 0) goto reload;
 	return 0;
 }
+
+/*
+reload : 
+-> label
+*/
