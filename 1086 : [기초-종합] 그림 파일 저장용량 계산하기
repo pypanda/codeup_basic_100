@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void)
+{
+	float a, b, c, d;
+	scanf("%f %f %f", &a, &b, &c);
+	d = a * b * c;
+	d = d / pow(2, 23);
+	printf("%.2f MB", d);
+	return 0;
+}
